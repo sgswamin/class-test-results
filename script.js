@@ -35,7 +35,7 @@ console.log(classAvgDisplay);
 let alexPointsUpdated = "Alex failed initially but did extra credit. Their new score is " + alexPoints + " out of " + maxPoints;
 console.log(alexPointsUpdated);
 
-scores = [samPoints, alexPointsUpdated, jessiePoints];
+scores = [samPoints, alexPoints, jessiePoints];
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Raw Points:";
 listItemArray[4].innerHTML = "Percentages:";
